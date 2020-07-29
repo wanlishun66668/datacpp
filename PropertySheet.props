@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <IncludePath>D:\downloads\opencv\build\include\opencv2;D:\downloads\opencv\build\include;D:\downloads\packages\pthreads\Pre-built.2\include;D:\darknet\DataLoader\include;D:\darknet\DataLoader\3rdparty\xml\include;D:\downloads\packages\pybind11-master\include;D:\Anaconda3\include;D:\downloads\packages\NumCpp-master\include;$(IncludePath)</IncludePath>
+    <LibraryPath>D:\downloads\opencv\build\x64\vc15\lib;D:\downloads\packages\pthreads\Pre-built.2\lib\x64;D:\Anaconda3\libs;$(LibraryPath)</LibraryPath>
+  </PropertyGroup>
+  <ItemDefinitionGroup>
+    <Link>
+      <AdditionalDependencies>pthreadVC2.lib;opencv_world3410.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>

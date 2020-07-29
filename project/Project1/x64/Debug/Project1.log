@@ -1,0 +1,47 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: 中间目录(x64\Debug\)包含从另一个项目(Project1.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+  tinyxml2.cpp
+  data.cpp
+D:\darknet\DataLoader\src\data.cpp(142,47): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  heatmap.cpp
+D:\darknet\DataLoader\src\heatmap.cpp(18,29): warning C4244: “=”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\darknet\DataLoader\src\heatmap.cpp(23,29): warning C4244: “=”: 从“int”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\darknet\DataLoader\src\heatmap.cpp(31,24): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(32,24): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(33,24): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(34,24): warning C4244: “=”: 从“int”转换到“float”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(35,54): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(36,53): warning C4244: “=”: 从“double”转换到“float”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(48,36): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(48,27): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(49,37): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(49,27): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(50,16): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(51,34): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(51,24): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(51,53): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+D:\darknet\DataLoader\src\heatmap.cpp(52,17): warning C4244: “=”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(53,35): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(53,25): warning C4244: “参数”: 从“float”转换到“int”，可能丢失数据
+D:\darknet\DataLoader\src\heatmap.cpp(53,54): warning C4244: “=”: 从“double”转换到“_Tp”，可能丢失数据
+          with
+          [
+              _Tp=float
+          ]
+  loader.cpp
+D:\darknet\DataLoader\src\loader.cpp(12,38): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  main.cpp
+D:\darknet\DataLoader\src\main.cpp(26,69): warning C4305: “参数”: 从“double”到“float”截断
+  正在生成代码...
+  Project1.vcxproj -> D:\darknet\DataLoader\datacpp\x64\Debug\datacpp.exe

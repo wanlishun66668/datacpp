@@ -1,0 +1,8 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Enterprise\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(467,5): warning MSB8028: 中间目录(x64\Release\)包含从另一个项目(datacpp.vcxproj)共享的文件。   这会导致错误的清除和重新生成行为。
+..\..\src\data.cpp(64,13): warning : unused variable 'index' [-Wunused-variable]
+..\..\src\data.cpp(84,22): warning : illegal character encoding in string literal [-Winvalid-source-encoding]
+..\..\src\data.cpp(92,2): warning : cannot delete expression with pointer-to-'void' type 'void *' [-Wdelete-incomplete]
+..\..\src\data.cpp(282,15): warning : expression result unused [-Wunused-value]
+..\..\src\data.cpp(294,15): warning : expression result unused [-Wunused-value]
+..\..\src\main.cpp(104,6): warning : unused variable 'downscale' [-Wunused-variable]
+  Project1.vcxproj -> D:\darknet\DataLoader\datacpp\x64\Release\data.pyd
